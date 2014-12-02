@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Salt master
+
+  div
+    form
+      select
+        option qasus-centos-44
+
+  div
+    button(class="ping").
+      ping all
+
+  div(id="master-output")
+    table(id="minion-list")
+
